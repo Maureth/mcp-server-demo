@@ -78,3 +78,21 @@ After installing `uv`, you can use it to lock dependencies by running:
 uv lock
 ```
 This will generate a `uv.lock` file based on the `requirements.txt` file.
+
+## Ejecución del Proyecto
+
+Para ejecutar el servidor, utilice el siguiente comando:
+
+```bash
+python server.py
+```
+
+Para ejecutar el cliente, utilice el siguiente comando:
+
+```bash
+python client.py
+```
+
+Puede encontrar un video demostrativo del proyecto en el siguiente enlace de YouTube:
+
+[Video Demo](https://www.youtube.com/watch?v=-WogqfxWBbM)

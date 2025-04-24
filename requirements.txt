@@ -4,3 +4,7 @@
 # Example:
 # flask==2.0.3
 # requests==2.26.0
+mcp[fastmcp]==1.6.0
+asyncpg>=0.26.0
+python-dotenv>=0.21.0
+uvicorn[standard]>=0.23.0
