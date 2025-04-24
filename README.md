@@ -61,3 +61,20 @@ This project is a demonstration of using the MCP Python SDK to build a server. T
    ```bash
    python server.py
    ```
+
+## Using `uv`
+
+`uv` is used in this project for dependency management and locking package versions to ensure consistent environments. It helps in creating a `uv.lock` file that captures the exact versions of all installed dependencies.
+
+### Installation
+
+To install `uv`, run the following command:
+```bash
+pip install uv
+```
+
+After installing `uv`, you can use it to lock dependencies by running:
+```bash
+uv lock
+```
+This will generate a `uv.lock` file based on the `requirements.txt` file.
